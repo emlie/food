@@ -200,7 +200,6 @@ header > div img {
 main {
   width: 100vw;
   padding-top: calc(var(--space)*5);
-  border: 1px solid cyan;
 }
 
 footer {
