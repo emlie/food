@@ -4,21 +4,72 @@
     <meta charset="utf-8">
     <title>food</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=family%3DLora%7CMontserrat%7COpen%2BSans%7CPlayfair%2BDisplay" rel="stylesheet">
   </head>
   <body>
 
 
 
 
+    <nav class="nav">
+      <ul>
+        <li>
+          <a class="index" href="index.html">
+            foodie
+          </a>
+        </li>
+        <li></li>
+        <li>
+          <a href="#">bakgrunn</a>
+        </li>
+        <li>
+          <a href="#">nåtid</a>
+        </li>
+        <li>
+          <a href="#">fremtid</a>
+        </li>
+      </ul>
+    </nav>
+
+
     <header id="up">
       <div class="overlay">
-        <h1>the recipes</h1>
+        <h1>foodie</h1>
+        <p class="intro">a collection of recipes</p>
+        <a href="#main">
+          <img src="icons/down-arrow.svg" alt="down-arrow">
+        </a>
       </div>
     </header>
 
 
+    <main id="main">
+      <h2>recipes</h2>
+
+      <div class="grid">
+
+      </div>
+    </main>
 
 
+    <footer>
+      <p>
+        <a href="#up"><img src="icons/up-arrow.svg" alt="up"></a>
+        <br>
+        Made by Mia Elisenberg
+      </p>
+    </footer>
+
+
+
+
+
+    <!-- smooth scroll js module: https://github.com/zengabor/zenscroll -->
+    <script src="scripts/zenscroll-latest/zenscroll-min.js"></script>
+    <!-- include jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- include js file -->
+    <script src="scripts/scripts.js"></script>
 
   </body>
 </html>
